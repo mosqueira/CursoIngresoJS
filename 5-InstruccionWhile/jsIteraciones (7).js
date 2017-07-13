@@ -5,8 +5,14 @@ function Mostrar()
 	var acumulador=0;
 	var respuesta='si';
 
+	while(respuesta=="si")
+	{
+		
+		acumulador=prompt()
+	}
 
-document.getElementById('suma').value=acumulador;
-document.getElementById('promedio').value=acumulador/contador;
+
+	document.getElementById('suma').value=acumulador;
+	document.getElementById('promedio').value=acumulador/contador;
 
 }//FIN DE LA FUNCIÓN
